@@ -1,0 +1,305 @@
+[{
+  "TokenIdRangeStart": 1,
+  "Index": 1,
+  "Title": "PERMISSIONLESS",
+  "Text": "Anyone can transfer this piece",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 2,
+  "Index": 2,
+  "Title": "NO EXTERNALITIES",
+  "Text": "This piece can only be held by a contract",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 3,
+  "Index": 3,
+  "Title": "OPENING HOURS",
+  "Text": "This piece has opening hours during which it exists and can be transferred",
+  "Supply": 1,
+  "Status": "Currently Open"
+},
+{
+  "TokenIdRangeStart": 4,
+  "Index": 4,
+  "Title": "DEAD BEEF",
+  "Text": "This piece can only be held by an address starting with DEAD and ending with BEEF",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 5,
+  "Index": "5-6",
+  "Title": "MUTUALLY EXCLUSIVE",
+  "Text": "The two pieces of this edition are mutually exclusive. Each piece can only be owned if the other owning address has no matching digits",
+  "Supply": 2,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 7,
+  "Index": 7,
+  "Title": "FAIR PRICE",
+  "Text": "This piece can be directly bought from the current owner by paying more than the last paid price",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 8,
+  "Index": 8,
+  "Title": "BEEF BABE",
+  "Text": "This piece can only be held by an address starting with BEEF and ending with BABE",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 9,
+  "Index": 9,
+  "Title": "SATED",
+  "Text": "This piece can only be transferred as the only transaction in a block",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 10,
+  "Index": 10,
+  "Title": "DARK",
+  "Text": "This piece can only be held by addresses containing at least 13 instances of 0 and no instances of F",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 11,
+  "Index": 11,
+  "Title": "RETRACTABLE",
+  "Text": "The artist can retract this piece at any time",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 12,
+  "Index": 12,
+  "Title": "BAD BEEF",
+  "Text": "This piece can only be held by an address starting with BAAD and ending with BEEF",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 13,
+  "Index": 13,
+  "Title": "SECRET POEM",
+  "Text": "This piece is a secret poem only know to the artist",
+  "Supply": 1,
+  "Status": "Poem: \n    0xbbef8abf4b95d23c9272\n    51318c9136aca5070fdedb\n    7ae52def0d65852181be78"
+},
+{
+  "TokenIdRangeStart": 14,
+  "Index": "14-16",
+  "Title": "SAME BLOCK",
+  "Text": "The three pieces from this edition can only be transferred in the same block",
+  "Supply": 3,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 17,
+  "Index": 17,
+  "Title": "LIMITED USE",
+  "Text": "This piece can be transferred 7 times after which it will self destruct",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 18,
+  "Index": 18,
+  "Title": "DEAF BABE",
+  "Text": "This piece can only be held by an address starting with DEAF and ending with BABE",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 19,
+  "Index": 19,
+  "Title": "11111111111111111111111111111",
+  "Text": "Anyone can decrease the title of this piece",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 20,
+  "Index": 20,
+  "Title": "SECRET JOKE",
+  "Text": "This piece is a secret joke only know to the artist",
+  "Supply": 1,
+  "Status": "Joke: \n    0x99d3578521cda2076fd3\n    9127ab261c5b61c2f266fe\n    0477d7a5bcd55159a19570"
+},
+{
+  "TokenIdRangeStart": 21,
+  "Index": 21,
+  "Title": "LOCUS",
+  "Text": "This piece will output three spatial coordinates for the current address. It can be used to spatially relate addresses",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 22,
+  "Index": 22,
+  "Title": "PERMANENCE I",
+  "Text": "This piece exists half of the time",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 23,
+  "Index": 23,
+  "Title": "BEEF BEEF",
+  "Text": "This piece can only be held by an address starting with BEEF and ending with BEEF",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 24,
+  "Index": "24-25",
+  "Title": "CO-DEPENDENT",
+  "Text": "The two pieces of this edition are co-dependent. A piece can only be acquired if the first three and last three digits of both the owning addresses are smaller than or equal to 0xFFF = 4095",
+  "Supply": 2,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 26,
+  "Index": 26,
+  "Title": "LIGHT",
+  "Text": "This piece can only be held by addresses containing at least 13 instances of F and no instances of 0",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 27,
+  "Index": 27,
+  "Title": 1,
+  "Text": "Anyone can increase the title of this piece",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 28,
+  "Index": 28,
+  "Title": "DEAD BABE",
+  "Text": "This piece can only be held by an address starting with DEAD and ending with BABE",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 29,
+  "Index": 29,
+  "Title": "CONTINUOUS",
+  "Text": "This piece can only be transferred to an address that has the first three digits of the previous address as its last three",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 30,
+  "Index": 30,
+  "Title": "EOA",
+  "Text": "This piece cannot be held by a contract",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 31,
+  "Index": 31,
+  "Title": "PERMANENCE II",
+  "Text": "This piece exists half of the time",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 32,
+  "Index": 32,
+  "Title": "DEAF BEEF",
+  "Text": "This piece can only be held by an address starting with DEAF and ending with BEEF",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 33,
+  "Index": 33,
+  "Title": "MAXIMALISM",
+  "Text": "This piece has no restrictions placed upon it. The sole request the artist makes is that it should not be sold to maximalists of any kind",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 34,
+  "Index": 34,
+  "Title": "COINBASE",
+  "Text": "This piece can only transferred to the block.coinbase address. As such it can only be received by validators",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 35,
+  "Index": 35,
+  "Title": "BABE BEEF",
+  "Text": "This piece can only be held by an address starting with BABE and ending with BEEF",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 36,
+  "Index": 36,
+  "Title": "BEEF FACE",
+  "Text": "This piece can only be held by an address starting with BEEF and ending with FACE",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 37,
+  "Index": 37,
+  "Title": "FEED BEEF",
+  "Text": "This piece can only be held by an address starting with FEED and ending with BEEF",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 38,
+  "Index": 38,
+  "Title": "SECRET TRUTH",
+  "Text": "This piece is a secret truth only known to the artist",
+  "Supply": 1,
+  "Status": "Truth: \n    0xbb3f0eb00a365c35fe15\n    d5df77440911e36ea2247b\n    5ce93b4b62de3318342e70"
+},
+{
+  "TokenIdRangeStart": 39,
+  "Index": 39,
+  "Title": "CHROMATIC",
+  "Text": "This piece can only be held by addresses containing at least 1 of each hexadecimal digit",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 40,
+  "Index": 40,
+  "Title": "UNWIELDY",
+  "Text": "This piece requires burning 1 ETH to be transferred",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 41,
+  "Index": 41,
+  "Title": "BAD BABE",
+  "Text": "This piece can only be held by an address starting with BAD and ending with BABE",
+  "Supply": 1,
+  "Status": ""
+},
+{
+  "TokenIdRangeStart": 42,
+  "Index": 42,
+  "Title": "TRANSITORY OWNERSHIP",
+  "Text": "This piece will always belong to the current validator",
+  "Supply": 1,
+  "Status": ""
+}
+]

@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  font-family: Helvetica, Inter, SFRounded, ui-rounded, "SF Pro Rounded", -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 1px;
+  margin-top: -1px;
+  padding-bottom: 1px;
+  margin-bottom: -1px;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* max-width: 700px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  width: 100%;
+  max-width: 66vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* [data-rk], [data-rk] *, */
+#connectWrapper * {
+  font-weight: normal !important;
+  /* color: black !important; */
+  font-size: 14px !important;
+}
+
+#connectWrapper svg path {
+  stroke: #ddd;
+}
+
+#connectWrapper button {
+  background-color: white !important;
+  color: black !important;
+}
