@@ -15,7 +15,7 @@ const Series: NextPage = () => {
       <p className="mb-3">
         Contract –{" "}
         <a
-          href={`https://goerli.etherscan.io/address/${contract.address}`}
+          href={`https://etherscan.io/address/${contract.address}`}
           target="_blank"
           rel="noopener noreferrer"
         >
