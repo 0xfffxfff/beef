@@ -3,7 +3,7 @@ import { useContractRead } from "wagmi";
 import type { Abi, Address } from "abitype";
 import { Connect } from "./Connect";
 
-import contract from "../../contracts/deployments/goerli/Beef.json";
+import contract from "../../contracts/deployments/mainnet/Beef.json";
 import Link from "next/link";
 
 const contractConfig = {

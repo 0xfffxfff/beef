@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import contract from "../../contracts/deployments/goerli/Beef.json";
+import contract from "../../contracts/deployments/mainnet/Beef.json";
 import Head from "next/head";
 const Series: NextPage = () => {
   return (

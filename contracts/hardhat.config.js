@@ -44,7 +44,7 @@ const config = {
     },
     mainnet: {
       chainId: 1,
-      timeout: 240_000,
+      timeout: 86_400_000,
       url: process.env.ROPSTEN_URL ?? "",
       accounts:
         process.env.PRIVATE_KEY !== undefined

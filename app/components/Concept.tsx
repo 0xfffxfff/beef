@@ -1,5 +1,5 @@
 import { PropsWithChildren, useEffect, useRef, useState } from "react";
-import contract from "../../contracts/deployments/goerli/Beef.json";
+import contract from "../../contracts/deployments/mainnet/Beef.json";
 import {
   useContractRead,
   useContractWrite,

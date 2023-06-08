@@ -1,4 +1,4 @@
-import contract from "../../../contracts/deployments/goerli/Beef.json";
+import contract from "../../../contracts/deployments/mainnet/Beef.json";
 import {
   useContractWrite,
   usePrepareContractWrite,
