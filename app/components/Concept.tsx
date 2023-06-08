@@ -94,6 +94,7 @@ export default function Concept({ id }: PropsWithChildren<{ id: number }>) {
   } else if (errorMessage.includes("HalfOfTheTime()")) {
     message = "Mintable at the right time";
   } else if (
+    errorMessage.includes("CurrentlyClosed()") ||
     errorMessage.includes("NotContinuous()") ||
     errorMessage.includes("NotContract()") ||
     errorMessage.includes("NoBeef()") ||
