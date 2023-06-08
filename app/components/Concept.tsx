@@ -215,7 +215,7 @@ export default function Concept({ id }: PropsWithChildren<{ id: number }>) {
               {id === 27 ? <Increase /> : null}
               {id === 1 ? (
                 <a
-                  href={`https://goerli.etherscan.io/address/${contract.address}#writeContract#F13`}
+                  href={`https://etherscan.io/address/${contract.address}#writeContract#F13`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -224,7 +224,7 @@ export default function Concept({ id }: PropsWithChildren<{ id: number }>) {
               ) : null}
               {id === 7 ? (
                 <a
-                  href={`https://goerli.etherscan.io/address/${contract.address}#writeContract#F2`}
+                  href={`https://etherscan.io/address/${contract.address}#writeContract#F2`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -233,7 +233,7 @@ export default function Concept({ id }: PropsWithChildren<{ id: number }>) {
               ) : null}
               {id === 21 ? (
                 <a
-                  href={`https://goerli.etherscan.io/address/${contract.address}#readContract#F21`}
+                  href={`https://etherscan.io/address/${contract.address}#readContract#F21`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

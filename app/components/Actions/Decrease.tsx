@@ -34,7 +34,7 @@ export default function Decrease() {
       await decrease?.();
     } else {
       window.open(
-        `https://goerli.etherscan.io/address/${contract.address}#writeContract#F3`,
+        `https://etherscan.io/address/${contract.address}#writeContract#F3`,
         "_blank"
       );
     }
@@ -51,7 +51,7 @@ export default function Decrease() {
     </button>
   ) : (
     <a
-      href={`https://goerli.etherscan.io/address/${contract.address}#writeContract#F3`}
+      href={`https://etherscan.io/address/${contract.address}#writeContract#F3`}
       target="_blank"
       rel="noreferrer noopener"
     >

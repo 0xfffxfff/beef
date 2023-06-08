@@ -33,7 +33,7 @@ export default function Increase() {
       await increase?.();
     } else {
       window.open(
-        `https://goerli.etherscan.io/address/${contract.address}#writeContract#F4`,
+        `https://etherscan.io/address/${contract.address}#writeContract#F4`,
         "_blank"
       );
     }
@@ -50,7 +50,7 @@ export default function Increase() {
     </button>
   ) : (
     <a
-      href={`https://goerli.etherscan.io/address/${contract.address}#writeContract#F4`}
+      href={`https://etherscan.io/address/${contract.address}#writeContract#F4`}
       target="_blank"
       rel="noreferrer noopener"
     >
