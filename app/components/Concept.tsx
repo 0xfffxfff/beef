@@ -91,10 +91,12 @@ export default function Concept({ id }: PropsWithChildren<{ id: number }>) {
     message = "Mintable";
   } else if (errorMessage.includes("err: insufficient funds for")) {
     message = "Insufficient funds to mint";
-  } else if (errorMessage.includes("HalfOfTheTime()")) {
+  } else if (
+    errorMessage.includes("HalfOfTheTime()") ||
+    errorMessage.includes("CurrentlyClosed()")
+  ) {
     message = "Mintable at the right time";
   } else if (
-    errorMessage.includes("CurrentlyClosed()") ||
     errorMessage.includes("NotContinuous()") ||
     errorMessage.includes("NotContract()") ||
     errorMessage.includes("NoBeef()") ||
