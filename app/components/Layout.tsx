@@ -70,7 +70,11 @@ export const Layout = ({ children }: PropsWithChildren) => {
       </div>
       {totalSupplyIsLoaded && editionSizeIsLoaded ? (
         <div className="hidden lg:block absolute lg:fixed bottom-5 right-5 text-sm">
-          {Number(totalSupply)} / {Number(editionSize)}
+          {
+            Number(totalSupply) +
+              1 /* Manually fix the totalSupply bug triggered by fair price mint */
+          }{" "}
+          / {Number(editionSize)}
         </div>
       ) : null}
     </div>
