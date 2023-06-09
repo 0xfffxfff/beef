@@ -201,11 +201,6 @@ export default function Concept({ id }: PropsWithChildren<{ id: number }>) {
                       {mint && id === 9 ? (
                         <div>⚠ Danger: Requires a lot of ETH</div>
                       ) : null}
-                      {mint && id === 7 ? (
-                        <div>
-                          ⚠ Danger: Price might differ from marketplaces
-                        </div>
-                      ) : null}
                     </>
                   ) : (
                     <div>{ownerOfIsLoaded && !ownerOf ? "Mintable" : null}</div>
@@ -226,13 +221,17 @@ export default function Concept({ id }: PropsWithChildren<{ id: number }>) {
                 </a>
               ) : null}
               {id === 7 ? (
-                <a
-                  href={`https://etherscan.io/address/${contract.address}#writeContract#F2`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  → Buy
-                </a>
+                <>
+                  <a
+                    href={`https://etherscan.io/address/${contract.address}#writeContract#F2`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#bbb" }}
+                  >
+                    <s>Buy</s>
+                  </a>{" "}
+                  / <span>⚠ Danger: Contains a bug!</span>
+                </>
               ) : null}
               {id === 21 ? (
                 <a
