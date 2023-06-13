@@ -12,6 +12,7 @@ require("./tasks/concepts-set-all");
 require("./tasks/concepts-render-all");
 require("./tasks/withdraw");
 require("./tasks/buy-fair-price");
+require("./tasks/buy-sated");
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
